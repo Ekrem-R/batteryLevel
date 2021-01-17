@@ -1,0 +1,46 @@
+#battery{
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+main{
+  margin: 0 auto;
+  width: 30vw;
+}
+
+.energy-level-0 tr{
+  background: white;
+}
+.energy-level-1 tr:last-child{
+  background: red;
+}
+.energy-level-2 tr:nth-child(2), .energy-level-2 tr:last-child {
+  background:orange;
+}
+.energy-level-3 tr{
+  background: green;
+}
+#plus{
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background: blue;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  margin-left: 20px;
+}
+
+#reduce{
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background: blue;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
